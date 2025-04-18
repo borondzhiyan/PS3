@@ -1,0 +1,749 @@
+2025-04-17 19:50:12,384 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-04-17 19:50:12,384 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-04-17 19:50:12,384 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Requested registry access is not allowed.
+2025-04-17 19:50:12,384 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2025-04-17 19:50:12,384 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-04-17 19:50:12,384 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-04-17 19:50:12,384 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-04-17 19:50:12,384 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-04-17 19:50:12,384 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-04-17 19:50:12,384 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-04-17 22:08:31,509 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-04-17 22:08:31,509 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-04-17 22:08:31,509 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Requested registry access is not allowed.
+2025-04-17 22:08:31,509 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2025-04-17 22:08:31,509 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-04-17 22:08:31,509 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-04-17 22:08:31,509 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-04-17 22:08:31,509 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-04-17 22:08:31,509 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-04-17 22:08:31,509 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-04-17 22:08:59,944 : WARN  : ModalContext :  : Node : CSV Writer : 3:32 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "loans_preprocessed.csv"
+2025-04-17 22:08:59,949 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  : Warnings during load: Status: Warning: 03-classification-preprocessing_deployment 3 loaded with warnings
+2025-04-17 22:08:59,949 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: Warning: 03-classification-preprocessing_deployment 3
+2025-04-17 22:08:59,949 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: Python Script 3:36
+2025-04-17 22:08:59,949 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: State has changed from CONFIGURED to IDLE
+2025-04-17 22:09:26,807 : ERROR : main :  : CEFNodeView :  :  : %cerror%c Console not yet initialized 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.core.ui.dialog/uiext-dialog/3_36/assets/index-DKy4BLtd.js; line: 857)
+2025-04-17 22:10:03,563 : ERROR : main :  : CEFNodeView :  :  : %cerror%c Console not yet initialized 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.core.ui.dialog/uiext-dialog/3_36/assets/index-DKy4BLtd.js; line: 857)
+2025-04-17 22:10:16,385 : ERROR : main :  : CEFNodeView :  :  : %cerror%c Console not yet initialized 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.core.ui.dialog/uiext-dialog/3_36/assets/index-DKy4BLtd.js; line: 857)
+2025-04-17 22:10:36,675 : ERROR : main :  : CEFNodeView :  :  : %cerror%c Console not yet initialized 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.core.ui.dialog/uiext-dialog/3_36/assets/index-DKy4BLtd.js; line: 857)
+2025-04-17 22:13:53,155 : WARN  : KNIME-Worker-8-Python Script 3:24 :  : PythonScriptNodeModel : Python Script : 3:24 : Traceback (most recent call last):
+  File "<string>", line 8, in <module>
+2025-04-17 22:13:53,456 : ERROR : KNIME-Worker-8-Python Script 3:24 :  : Node : Python Script : 3:24 : Execute failed: FileNotFoundError: [Errno 2] No such file or directory: 'data/classifier.pkl'
+org.knime.core.node.KNIMEException: Execute failed: FileNotFoundError: [Errno 2] No such file or directory: 'data/classifier.pkl'
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.checkExecutionAnswer(PythonScriptNodeModel.java:254)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.runUserScript(PythonScriptNodeModel.java:242)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.execute(PythonScriptNodeModel.java:187)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2025-04-17 22:13:54,682 : WARN  : KNIME-Worker-9-CSV Reader 3:1 :  : Node : CSV Writer : 3:32 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "loans_preprocessed.csv"
+2025-04-17 22:13:58,033 : WARN  : KNIME-Worker-10-String to Number 3:27:16 :  : Node : CSV Writer : 3:32 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "loans_preprocessed.csv"
+2025-04-17 22:13:58,318 : WARN  : KNIME-Worker-8-Missing Value 3:27:17 :  : Node : CSV Writer : 3:32 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "loans_preprocessed.csv"
+2025-04-17 22:13:58,775 : WARN  : KNIME-Worker-7-Normalizer 3:23 :  : Node : CSV Writer : 3:32 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "loans_preprocessed.csv"
+2025-04-17 22:13:59,484 : WARN  : KNIME-Worker-9-PCA Compute 3:20 :  : Node : CSV Writer : 3:32 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "loans_preprocessed.csv"
+2025-04-17 22:18:46,199 : WARN  : KNIME-Worker-40-Python Script 3:24 :  : PythonScriptNodeModel : Python Script : 3:24 : Traceback (most recent call last):
+  File "<string>", line 8, in <module>
+2025-04-17 22:18:46,406 : ERROR : KNIME-Worker-40-Python Script 3:24 :  : Node : Python Script : 3:24 : Execute failed: FileNotFoundError: [Errno 2] No such file or directory: 'data/classifier.pkl'
+org.knime.core.node.KNIMEException: Execute failed: FileNotFoundError: [Errno 2] No such file or directory: 'data/classifier.pkl'
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.checkExecutionAnswer(PythonScriptNodeModel.java:254)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.runUserScript(PythonScriptNodeModel.java:242)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.execute(PythonScriptNodeModel.java:187)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2025-04-17 22:18:58,787 : ERROR : main :  : CEFNodeView :  :  : %cerror%c Console not yet initialized 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.core.ui.dialog/uiext-dialog/3_26/assets/index-DKy4BLtd.js; line: 857)
+2025-04-17 22:25:03,863 : ERROR : main :  : CEFNodeView :  :  : %cerror%c Console not yet initialized 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.core.ui.dialog/uiext-dialog/3_26/assets/index-DKy4BLtd.js; line: 857)
+2025-04-17 22:30:46,105 : ERROR : main :  : CEFNodeView :  :  : %cerror%c Console not yet initialized 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.core.ui.dialog/uiext-dialog/3_26/assets/index-DKy4BLtd.js; line: 857)
+2025-04-17 22:35:52,526 : WARN  : KNIME-Worker-47-Python Script 3:26 :  : PythonScriptNodeModel : Python Script : 3:26 : Traceback (most recent call last):
+  File "<string>", line 15, in <module>
+2025-04-17 22:35:52,700 : ERROR : KNIME-Worker-47-Python Script 3:26 :  : Node : Python Script : 3:26 : Execute failed: AttributeError: 'dict' object has no attribute 'predict'
+org.knime.core.node.KNIMEException: Execute failed: AttributeError: 'dict' object has no attribute 'predict'
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.checkExecutionAnswer(PythonScriptNodeModel.java:254)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.runUserScript(PythonScriptNodeModel.java:242)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.execute(PythonScriptNodeModel.java:187)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2025-04-17 22:36:17,653 : WARN  : KNIME-Worker-49-Python Script 3:26 :  : PythonScriptNodeModel : Python Script : 3:26 : Traceback (most recent call last):
+  File "<string>", line 15, in <module>
+2025-04-17 22:36:17,784 : ERROR : KNIME-Worker-49-Python Script 3:26 :  : Node : Python Script : 3:26 : Execute failed: AttributeError: 'dict' object has no attribute 'predict'
+org.knime.core.node.KNIMEException: Execute failed: AttributeError: 'dict' object has no attribute 'predict'
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.checkExecutionAnswer(PythonScriptNodeModel.java:254)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.runUserScript(PythonScriptNodeModel.java:242)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.execute(PythonScriptNodeModel.java:187)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2025-04-17 22:38:47,523 : WARN  : KNIME-Worker-54-Python Script 3:26 :  : PythonScriptNodeModel : Python Script : 3:26 : Traceback (most recent call last):
+  File "<string>", line 15, in <module>
+  File "C:\Program Files\KNIME\bundling\envs\org_knime_pythonscripting_5.4.2\Lib\site-packages\sklearn\neighbors\_classification.py", line 274, in predict
+    neigh_ind = self.kneighbors(X, return_distance=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\KNIME\bundling\envs\org_knime_pythonscripting_5.4.2\Lib\site-packages\sklearn\neighbors\_base.py", line 838, in kneighbors
+    X = validate_data(
+        ^^^^^^^^^^^^^^
+  File "C:\Program Files\KNIME\bundling\envs\org_knime_pythonscripting_5.4.2\Lib\site-packages\sklearn\utils\validation.py", line 2919, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "C:\Program Files\KNIME\bundling\envs\org_knime_pythonscripting_5.4.2\Lib\site-packages\sklearn\utils\validation.py", line 2777, in _check_feature_names
+    raise ValueError(message)
+2025-04-17 22:38:47,666 : ERROR : KNIME-Worker-54-Python Script 3:26 :  : Node : Python Script : 3:26 : Execute failed: ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- PC1
+- PC2
+Feature names seen at fit time, yet now missing:
+- acc_now_delinq
+- annual_inc
+- delinq_2yrs
+- dti
+- emp_length
+- ...
+
+org.knime.core.node.KNIMEException: Execute failed: ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- PC1
+- PC2
+Feature names seen at fit time, yet now missing:
+- acc_now_delinq
+- annual_inc
+- delinq_2yrs
+- dti
+- emp_length
+- ...
+
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.checkExecutionAnswer(PythonScriptNodeModel.java:254)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.runUserScript(PythonScriptNodeModel.java:242)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.execute(PythonScriptNodeModel.java:187)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2025-04-17 22:38:59,819 : WARN  : KNIME-Worker-56-Python Script 3:26 :  : PythonScriptNodeModel : Python Script : 3:26 : Traceback (most recent call last):
+  File "<string>", line 15, in <module>
+  File "C:\Program Files\KNIME\bundling\envs\org_knime_pythonscripting_5.4.2\Lib\site-packages\sklearn\neighbors\_classification.py", line 274, in predict
+    neigh_ind = self.kneighbors(X, return_distance=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\KNIME\bundling\envs\org_knime_pythonscripting_5.4.2\Lib\site-packages\sklearn\neighbors\_base.py", line 838, in kneighbors
+    X = validate_data(
+        ^^^^^^^^^^^^^^
+  File "C:\Program Files\KNIME\bundling\envs\org_knime_pythonscripting_5.4.2\Lib\site-packages\sklearn\utils\validation.py", line 2919, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "C:\Program Files\KNIME\bundling\envs\org_knime_pythonscripting_5.4.2\Lib\site-packages\sklearn\utils\validation.py", line 2777, in _check_feature_names
+    raise ValueError(message)
+2025-04-17 22:38:59,984 : ERROR : KNIME-Worker-56-Python Script 3:26 :  : Node : Python Script : 3:26 : Execute failed: ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- PC1
+- PC2
+Feature names seen at fit time, yet now missing:
+- acc_now_delinq
+- annual_inc
+- delinq_2yrs
+- dti
+- emp_length
+- ...
+
+org.knime.core.node.KNIMEException: Execute failed: ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- PC1
+- PC2
+Feature names seen at fit time, yet now missing:
+- acc_now_delinq
+- annual_inc
+- delinq_2yrs
+- dti
+- emp_length
+- ...
+
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.checkExecutionAnswer(PythonScriptNodeModel.java:254)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.runUserScript(PythonScriptNodeModel.java:242)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.execute(PythonScriptNodeModel.java:187)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2025-04-17 22:41:32,427 : ERROR : main :  : CEFNodeView :  :  : %cerror%c Console not yet initialized 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.core.ui.dialog/uiext-dialog/3_26/assets/index-DKy4BLtd.js; line: 857)
+2025-04-17 22:42:56,694 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-04-17 22:42:56,694 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-04-17 22:42:56,694 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Requested registry access is not allowed.
+2025-04-17 22:42:56,694 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2025-04-17 22:42:56,694 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-04-17 22:42:56,694 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-04-17 22:42:56,694 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-04-17 22:42:56,694 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-04-17 22:42:56,694 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-04-17 22:42:56,694 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-04-17 22:46:35,176 : WARN  : ModalContext :  : WorkflowManager :  :  : Unable to insert connection "[37(1) -> 26( 1)]"
+2025-04-17 22:46:35,439 : WARN  : ModalContext :  : Node : CSV Writer : 3:32 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "loans_preprocessed.csv"
+2025-04-17 22:46:35,442 : WARN  : ModalContext :  : Node : CSV Writer : 3:32 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "loans_preprocessed.csv"
+2025-04-17 22:46:35,448 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  : Errors during load: Status: Error: 03-classification-preprocessing_deployment 3 loaded with errors
+2025-04-17 22:46:35,448 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: Error: 03-classification-preprocessing_deployment 3
+2025-04-17 22:46:35,448 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Unable to insert connection "[37(1) -> 26( 1)]"
+2025-04-17 22:46:35,448 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: Python Script 3:37
+2025-04-17 22:46:35,448 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: State has changed from CONFIGURED to IDLE
+2025-04-17 22:46:46,364 : ERROR : main :  : CEFNodeView :  :  : %cerror%c Console not yet initialized 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.core.ui.dialog/uiext-dialog/3_37/assets/index-DKy4BLtd.js; line: 857)
+2025-04-17 22:47:26,687 : ERROR : main :  : CEFNodeView :  :  : %cerror%c Console not yet initialized 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.core.ui.dialog/uiext-dialog/3_37/assets/index-DKy4BLtd.js; line: 857)
+2025-04-17 22:47:56,361 : ERROR : main :  : CEFNodeView :  :  : %cerror%c Console not yet initialized 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.core.ui.dialog/uiext-dialog/3_37/assets/index-DKy4BLtd.js; line: 857)
+2025-04-17 22:50:02,490 : ERROR : KNIME-Worker-9 :  : PythonSourceCodePanel : Python Script : 3:38 : NameError: name 'model_pack' is not defined
+org.knime.python2.kernel.PythonIOException: Executing the Python script failed: Traceback (most recent call last):
+  File "<string>", line 13, in <module>
+NameError: name 'model_pack' is not defined
+
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:744)
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:721)
+	at org.knime.python3.scripting.Python3KernelBackend.executeAndCheckOutputs(Python3KernelBackend.java:646)
+	at org.knime.python2.kernel.PythonKernel.executeAndCheckOutputs(PythonKernel.java:486)
+	at org.knime.python2.kernel.PythonKernelManager.lambda$1(PythonKernelManager.java:208)
+	at org.knime.python2.kernel.PythonKernelManager$3.run(PythonKernelManager.java:225)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: Traceback (most recent call last):
+  File "<string>", line 13, in <module>
+NameError: name 'model_pack' is not defined
+
+2025-04-17 22:50:47,734 : ERROR : KNIME-Worker-9 :  : PythonSourceCodePanel : Python Script : 3:38 : FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+org.knime.python2.kernel.PythonIOException: Executing the Python script failed: Traceback (most recent call last):
+  File "<string>", line 10, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:744)
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:721)
+	at org.knime.python3.scripting.Python3KernelBackend.executeAndCheckOutputs(Python3KernelBackend.java:646)
+	at org.knime.python2.kernel.PythonKernel.executeAndCheckOutputs(PythonKernel.java:486)
+	at org.knime.python2.kernel.PythonKernelManager.lambda$1(PythonKernelManager.java:208)
+	at org.knime.python2.kernel.PythonKernelManager$3.run(PythonKernelManager.java:225)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: Traceback (most recent call last):
+  File "<string>", line 10, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+
+2025-04-17 22:53:24,227 : ERROR : KNIME-Worker-12 :  : PythonSourceCodePanel : Python Script : 3:38 : FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+org.knime.python2.kernel.PythonIOException: Executing the Python script failed: Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:744)
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:721)
+	at org.knime.python3.scripting.Python3KernelBackend.executeAndCheckOutputs(Python3KernelBackend.java:646)
+	at org.knime.python2.kernel.PythonKernel.executeAndCheckOutputs(PythonKernel.java:486)
+	at org.knime.python2.kernel.PythonKernelManager.lambda$1(PythonKernelManager.java:208)
+	at org.knime.python2.kernel.PythonKernelManager$3.run(PythonKernelManager.java:225)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+
+2025-04-17 22:53:40,522 : ERROR : KNIME-Worker-12 :  : PythonSourceCodePanel : Python Script : 3:38 : KnimeUserError: Expected an object in output_objects[0], got None. Did you assign the output object?
+org.knime.python2.kernel.PythonIOException: KnimeUserError: Expected an object in output_objects[0], got None. Did you assign the output object?
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:742)
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:721)
+	at org.knime.python3.scripting.Python3KernelBackend.executeAndCheckOutputs(Python3KernelBackend.java:646)
+	at org.knime.python2.kernel.PythonKernel.executeAndCheckOutputs(PythonKernel.java:486)
+	at org.knime.python2.kernel.PythonKernelManager.lambda$1(PythonKernelManager.java:208)
+	at org.knime.python2.kernel.PythonKernelManager$3.run(PythonKernelManager.java:225)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2025-04-17 22:53:44,199 : ERROR : KNIME-Worker-12 :  : PythonSourceCodePanel : Python Script : 3:38 : KnimeUserError: Expected an object in output_objects[0], got None. Did you assign the output object?
+org.knime.python2.kernel.PythonIOException: KnimeUserError: Expected an object in output_objects[0], got None. Did you assign the output object?
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:742)
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:721)
+	at org.knime.python3.scripting.Python3KernelBackend.executeAndCheckOutputs(Python3KernelBackend.java:646)
+	at org.knime.python2.kernel.PythonKernel.executeAndCheckOutputs(PythonKernel.java:486)
+	at org.knime.python2.kernel.PythonKernelManager.lambda$1(PythonKernelManager.java:208)
+	at org.knime.python2.kernel.PythonKernelManager$3.run(PythonKernelManager.java:225)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2025-04-17 22:54:19,276 : ERROR : KNIME-Worker-12 :  : PythonSourceCodePanel : Python Script : 3:38 : FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+org.knime.python2.kernel.PythonIOException: Executing the Python script failed: Traceback (most recent call last):
+  File "<string>", line 3, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:744)
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:721)
+	at org.knime.python3.scripting.Python3KernelBackend.executeAndCheckOutputs(Python3KernelBackend.java:646)
+	at org.knime.python2.kernel.PythonKernel.executeAndCheckOutputs(PythonKernel.java:486)
+	at org.knime.python2.kernel.PythonKernelManager.lambda$1(PythonKernelManager.java:208)
+	at org.knime.python2.kernel.PythonKernelManager$3.run(PythonKernelManager.java:225)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: Traceback (most recent call last):
+  File "<string>", line 3, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+
+2025-04-17 22:54:20,323 : ERROR : KNIME-Worker-12 :  : PythonSourceCodePanel : Python Script : 3:38 : FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+org.knime.python2.kernel.PythonIOException: Executing the Python script failed: Traceback (most recent call last):
+  File "<string>", line 3, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:744)
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:721)
+	at org.knime.python3.scripting.Python3KernelBackend.executeAndCheckOutputs(Python3KernelBackend.java:646)
+	at org.knime.python2.kernel.PythonKernel.executeAndCheckOutputs(PythonKernel.java:486)
+	at org.knime.python2.kernel.PythonKernelManager.lambda$1(PythonKernelManager.java:208)
+	at org.knime.python2.kernel.PythonKernelManager$3.run(PythonKernelManager.java:225)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: Traceback (most recent call last):
+  File "<string>", line 3, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+
+2025-04-17 22:54:20,654 : ERROR : KNIME-Worker-12 :  : PythonSourceCodePanel : Python Script : 3:38 : FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+org.knime.python2.kernel.PythonIOException: Executing the Python script failed: Traceback (most recent call last):
+  File "<string>", line 3, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:744)
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:721)
+	at org.knime.python3.scripting.Python3KernelBackend.executeAndCheckOutputs(Python3KernelBackend.java:646)
+	at org.knime.python2.kernel.PythonKernel.executeAndCheckOutputs(PythonKernel.java:486)
+	at org.knime.python2.kernel.PythonKernelManager.lambda$1(PythonKernelManager.java:208)
+	at org.knime.python2.kernel.PythonKernelManager$3.run(PythonKernelManager.java:225)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: Traceback (most recent call last):
+  File "<string>", line 3, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+
+2025-04-17 22:54:20,876 : ERROR : KNIME-Worker-12 :  : PythonSourceCodePanel : Python Script : 3:38 : FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+org.knime.python2.kernel.PythonIOException: Executing the Python script failed: Traceback (most recent call last):
+  File "<string>", line 3, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:744)
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:721)
+	at org.knime.python3.scripting.Python3KernelBackend.executeAndCheckOutputs(Python3KernelBackend.java:646)
+	at org.knime.python2.kernel.PythonKernel.executeAndCheckOutputs(PythonKernel.java:486)
+	at org.knime.python2.kernel.PythonKernelManager.lambda$1(PythonKernelManager.java:208)
+	at org.knime.python2.kernel.PythonKernelManager$3.run(PythonKernelManager.java:225)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: Traceback (most recent call last):
+  File "<string>", line 3, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+
+2025-04-17 22:54:21,092 : ERROR : KNIME-Worker-12 :  : PythonSourceCodePanel : Python Script : 3:38 : FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+org.knime.python2.kernel.PythonIOException: Executing the Python script failed: Traceback (most recent call last):
+  File "<string>", line 3, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:744)
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:721)
+	at org.knime.python3.scripting.Python3KernelBackend.executeAndCheckOutputs(Python3KernelBackend.java:646)
+	at org.knime.python2.kernel.PythonKernel.executeAndCheckOutputs(PythonKernel.java:486)
+	at org.knime.python2.kernel.PythonKernelManager.lambda$1(PythonKernelManager.java:208)
+	at org.knime.python2.kernel.PythonKernelManager$3.run(PythonKernelManager.java:225)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: Traceback (most recent call last):
+  File "<string>", line 3, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+
+2025-04-17 22:54:21,290 : ERROR : KNIME-Worker-12 :  : PythonSourceCodePanel : Python Script : 3:38 : FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+org.knime.python2.kernel.PythonIOException: Executing the Python script failed: Traceback (most recent call last):
+  File "<string>", line 3, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:744)
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:721)
+	at org.knime.python3.scripting.Python3KernelBackend.executeAndCheckOutputs(Python3KernelBackend.java:646)
+	at org.knime.python2.kernel.PythonKernel.executeAndCheckOutputs(PythonKernel.java:486)
+	at org.knime.python2.kernel.PythonKernelManager.lambda$1(PythonKernelManager.java:208)
+	at org.knime.python2.kernel.PythonKernelManager$3.run(PythonKernelManager.java:225)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: Traceback (most recent call last):
+  File "<string>", line 3, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+
+2025-04-17 22:54:21,504 : ERROR : KNIME-Worker-12 :  : PythonSourceCodePanel : Python Script : 3:38 : FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+org.knime.python2.kernel.PythonIOException: Executing the Python script failed: Traceback (most recent call last):
+  File "<string>", line 3, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:744)
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:721)
+	at org.knime.python3.scripting.Python3KernelBackend.executeAndCheckOutputs(Python3KernelBackend.java:646)
+	at org.knime.python2.kernel.PythonKernel.executeAndCheckOutputs(PythonKernel.java:486)
+	at org.knime.python2.kernel.PythonKernelManager.lambda$1(PythonKernelManager.java:208)
+	at org.knime.python2.kernel.PythonKernelManager$3.run(PythonKernelManager.java:225)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: Traceback (most recent call last):
+  File "<string>", line 3, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+
+2025-04-17 22:54:21,710 : ERROR : KNIME-Worker-12 :  : PythonSourceCodePanel : Python Script : 3:38 : FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+org.knime.python2.kernel.PythonIOException: Executing the Python script failed: Traceback (most recent call last):
+  File "<string>", line 3, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:744)
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:721)
+	at org.knime.python3.scripting.Python3KernelBackend.executeAndCheckOutputs(Python3KernelBackend.java:646)
+	at org.knime.python2.kernel.PythonKernel.executeAndCheckOutputs(PythonKernel.java:486)
+	at org.knime.python2.kernel.PythonKernelManager.lambda$1(PythonKernelManager.java:208)
+	at org.knime.python2.kernel.PythonKernelManager$3.run(PythonKernelManager.java:225)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: Traceback (most recent call last):
+  File "<string>", line 3, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+
+2025-04-17 22:54:21,924 : ERROR : KNIME-Worker-12 :  : PythonSourceCodePanel : Python Script : 3:38 : FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+org.knime.python2.kernel.PythonIOException: Executing the Python script failed: Traceback (most recent call last):
+  File "<string>", line 3, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:744)
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:721)
+	at org.knime.python3.scripting.Python3KernelBackend.executeAndCheckOutputs(Python3KernelBackend.java:646)
+	at org.knime.python2.kernel.PythonKernel.executeAndCheckOutputs(PythonKernel.java:486)
+	at org.knime.python2.kernel.PythonKernelManager.lambda$1(PythonKernelManager.java:208)
+	at org.knime.python2.kernel.PythonKernelManager$3.run(PythonKernelManager.java:225)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: Traceback (most recent call last):
+  File "<string>", line 3, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+
+2025-04-17 22:54:22,114 : ERROR : KNIME-Worker-12 :  : PythonSourceCodePanel : Python Script : 3:38 : FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+org.knime.python2.kernel.PythonIOException: Executing the Python script failed: Traceback (most recent call last):
+  File "<string>", line 3, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:744)
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:721)
+	at org.knime.python3.scripting.Python3KernelBackend.executeAndCheckOutputs(Python3KernelBackend.java:646)
+	at org.knime.python2.kernel.PythonKernel.executeAndCheckOutputs(PythonKernel.java:486)
+	at org.knime.python2.kernel.PythonKernelManager.lambda$1(PythonKernelManager.java:208)
+	at org.knime.python2.kernel.PythonKernelManager$3.run(PythonKernelManager.java:225)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: Traceback (most recent call last):
+  File "<string>", line 3, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+
+2025-04-17 22:55:07,631 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-04-17 22:55:07,631 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-04-17 22:55:07,631 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Requested registry access is not allowed.
+2025-04-17 22:55:07,631 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2025-04-17 22:55:07,631 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-04-17 22:55:07,631 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-04-17 22:55:07,631 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-04-17 22:55:07,631 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-04-17 22:55:07,631 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-04-17 22:55:07,631 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-04-17 22:55:16,781 : WARN  : ModalContext :  : WorkflowManager :  :  : Unable to insert connection "[37(1) -> 26( 1)]"
+2025-04-17 22:55:17,106 : WARN  : ModalContext :  : Node : CSV Writer : 3:32 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "loans_preprocessed.csv"
+2025-04-17 22:55:17,109 : WARN  : ModalContext :  : Node : CSV Writer : 3:32 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "loans_preprocessed.csv"
+2025-04-17 22:55:17,116 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  : Errors during load: Status: Error: 03-classification-preprocessing_deployment 3 loaded with errors
+2025-04-17 22:55:17,116 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: Error: 03-classification-preprocessing_deployment 3
+2025-04-17 22:55:17,116 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Unable to insert connection "[37(1) -> 26( 1)]"
+2025-04-17 22:55:17,116 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: Python Script 3:37
+2025-04-17 22:55:17,116 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: State has changed from CONFIGURED to IDLE
+2025-04-17 22:55:49,341 : ERROR : main :  : CEFNodeView :  :  : %cerror%c Console not yet initialized 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.core.ui.dialog/uiext-dialog/3_37/assets/index-DKy4BLtd.js; line: 857)
+2025-04-17 22:56:29,451 : ERROR : main :  : CEFNodeView :  :  : %cerror%c Console not yet initialized 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.core.ui.dialog/uiext-dialog/3_37/assets/index-DKy4BLtd.js; line: 857)
+2025-04-17 22:56:50,715 : ERROR : KNIME-Worker-6 :  : PythonSourceCodePanel : Python Script : 3:38 : NameError: name 'model_pack' is not defined
+org.knime.python2.kernel.PythonIOException: Executing the Python script failed: Traceback (most recent call last):
+  File "<string>", line 15, in <module>
+NameError: name 'model_pack' is not defined
+
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:744)
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:721)
+	at org.knime.python3.scripting.Python3KernelBackend.executeAndCheckOutputs(Python3KernelBackend.java:646)
+	at org.knime.python2.kernel.PythonKernel.executeAndCheckOutputs(PythonKernel.java:486)
+	at org.knime.python2.kernel.PythonKernelManager.lambda$1(PythonKernelManager.java:208)
+	at org.knime.python2.kernel.PythonKernelManager$3.run(PythonKernelManager.java:225)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: Traceback (most recent call last):
+  File "<string>", line 15, in <module>
+NameError: name 'model_pack' is not defined
+
+2025-04-17 22:57:46,414 : ERROR : KNIME-Worker-6 :  : PythonSourceCodePanel : Python Script : 3:38 : NameError: name 'model_pack' is not defined
+org.knime.python2.kernel.PythonIOException: Executing the Python script failed: Traceback (most recent call last):
+  File "<string>", line 15, in <module>
+NameError: name 'model_pack' is not defined
+
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:744)
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:721)
+	at org.knime.python3.scripting.Python3KernelBackend.executeAndCheckOutputs(Python3KernelBackend.java:646)
+	at org.knime.python2.kernel.PythonKernel.executeAndCheckOutputs(PythonKernel.java:486)
+	at org.knime.python2.kernel.PythonKernelManager.lambda$1(PythonKernelManager.java:208)
+	at org.knime.python2.kernel.PythonKernelManager$3.run(PythonKernelManager.java:225)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: Traceback (most recent call last):
+  File "<string>", line 15, in <module>
+NameError: name 'model_pack' is not defined
+
+2025-04-17 23:03:01,195 : ERROR : KNIME-Worker-7 :  : PythonSourceCodePanel : Python Script : 3:38 : NameError: name 'model_pack' is not defined
+org.knime.python2.kernel.PythonIOException: Executing the Python script failed: Traceback (most recent call last):
+  File "<string>", line 15, in <module>
+NameError: name 'model_pack' is not defined
+
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:744)
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:721)
+	at org.knime.python3.scripting.Python3KernelBackend.executeAndCheckOutputs(Python3KernelBackend.java:646)
+	at org.knime.python2.kernel.PythonKernel.executeAndCheckOutputs(PythonKernel.java:486)
+	at org.knime.python2.kernel.PythonKernelManager.lambda$1(PythonKernelManager.java:208)
+	at org.knime.python2.kernel.PythonKernelManager$3.run(PythonKernelManager.java:225)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: Traceback (most recent call last):
+  File "<string>", line 15, in <module>
+NameError: name 'model_pack' is not defined
+
+2025-04-17 23:03:28,762 : ERROR : main :  : CEFNodeView :  :  : %cerror%c Console not yet initialized 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.core.ui.dialog/uiext-dialog/3_26/assets/index-DKy4BLtd.js; line: 857)
+2025-04-17 23:05:23,575 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-04-17 23:05:23,575 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-04-17 23:05:23,575 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Requested registry access is not allowed.
+2025-04-17 23:05:23,575 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2025-04-17 23:05:23,575 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-04-17 23:05:23,575 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-04-17 23:05:23,575 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-04-17 23:05:23,575 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-04-17 23:05:23,575 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-04-17 23:05:23,575 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-04-17 23:05:32,639 : WARN  : ModalContext :  : Node : CSV Writer : 3:32 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "loans_preprocessed.csv"
+2025-04-17 23:05:32,643 : WARN  : ModalContext :  : Node : CSV Writer : 3:32 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "loans_preprocessed.csv"
+2025-04-17 23:05:32,649 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  : Warnings during load: Status: Warning: 03-classification-preprocessing_deployment 3 loaded with warnings
+2025-04-17 23:05:32,649 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: Warning: 03-classification-preprocessing_deployment 3
+2025-04-17 23:05:32,650 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: Python Script 3:38
+2025-04-17 23:05:32,650 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: State has changed from CONFIGURED to IDLE
+2025-04-17 23:07:39,842 : ERROR : KNIME-Worker-7 :  : PythonSourceCodePanel : Python Script : 3:39 : NameError: name 'model_pack' is not defined
+org.knime.python2.kernel.PythonIOException: Executing the Python script failed: Traceback (most recent call last):
+  File "<string>", line 15, in <module>
+NameError: name 'model_pack' is not defined
+
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:744)
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:721)
+	at org.knime.python3.scripting.Python3KernelBackend.executeAndCheckOutputs(Python3KernelBackend.java:646)
+	at org.knime.python2.kernel.PythonKernel.executeAndCheckOutputs(PythonKernel.java:486)
+	at org.knime.python2.kernel.PythonKernelManager.lambda$1(PythonKernelManager.java:208)
+	at org.knime.python2.kernel.PythonKernelManager$3.run(PythonKernelManager.java:225)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: Traceback (most recent call last):
+  File "<string>", line 15, in <module>
+NameError: name 'model_pack' is not defined
+

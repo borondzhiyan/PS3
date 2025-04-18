@@ -1,0 +1,195 @@
+{
+    "version": "5.4.3.v202503031608",
+    "created": "2025-04-17 16:50",
+    "nodestats": {
+        "nodes": [
+            {
+                "id": "org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory",
+                "nodename": "Python Script",
+                "nrexecs": 0,
+                "nrfails": 6,
+                "exectime": 7216,
+                "nrcreated": 0,
+                "nrsettingsChanged": 3,
+                "successor": "org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory",
+                "successornodename": "Python Script"
+            },
+            {
+                "id": "org.knime.python3.scripting.nodes.script.PythonScriptNodeFactory",
+                "nodename": "Python Script",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 2186,
+                "nrcreated": 0,
+                "nrsettingsChanged": 4,
+                "successor": "org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory",
+                "successornodename": "Python Script"
+            },
+            {
+                "id": "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory",
+                "nodename": "CSV Reader",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 1422,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.rules.engine.RuleEngineNodeFactory",
+                "nodename": "Rule Engine",
+                "nrexecs": 11,
+                "nrfails": 0,
+                "exectime": 1334,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.row3.RowFilterNodeFactory",
+                "nodename": "Row Filter",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 681,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.stringmanipulation.multicolumn.MultiColumnStringManipulationNodeFactory",
+                "nodename": "String Manipulation (Multi Column)",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 2359,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeFactory",
+                "nodename": "String Manipulation",
+                "nrexecs": 4,
+                "nrfails": 0,
+                "exectime": 848,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory",
+                "nodename": "Column Filter",
+                "nrexecs": 5,
+                "nrfails": 0,
+                "exectime": 1,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.colconvert.stringtonumber2.StringToNumber2NodeFactory",
+                "nodename": "String to Number",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 368,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeFactory",
+                "nodename": "Missing Value",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 526,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.normalize3.Normalizer3NodeFactory",
+                "nodename": "Normalizer",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 454,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.normalize.NormalizerApplyNodeFactory",
+                "nodename": "Normalizer (Apply)",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 75,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.mine.transformation.pca.compute.PCA2ComputeNodeFactory",
+                "nodename": "PCA Compute",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 706,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.mine.transformation.pca.apply.PCA2ApplyNodeFactory",
+                "nodename": "PCA Apply",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 113,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.column.renamer.ColumnRenamerNodeFactory",
+                "nodename": "Column Renamer",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            }
+        ],
+        "metaNodes": {
+        },
+        "wrappedNodes": {
+        },
+        "createdVia": {
+        }
+    },
+    "uptime": 1059288,
+    "workflowsOpened": 4,
+    "remoteWorkflowsOpened": 0,
+    "workflowsCreated": 0,
+    "remoteWorkflowsCreated": 0,
+    "columnarStorageWorkflowsOpened": 0,
+    "workflowsImported": 0,
+    "workflowsExported": 0,
+    "webUIPerspectiveSwitches": 0,
+    "javaUIPerspectiveSwitches": 1,
+    "lastUsedPerspective": "none (classic)",
+    "launches": 5,
+    "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
+    "timeSinceLastStart": 135017,
+    "crashes": 0,
+    "properlyShutDown": true
+}
