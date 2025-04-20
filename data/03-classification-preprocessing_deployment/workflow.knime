@@ -8,7 +8,7 @@
         <entry key="authored-by" type="xstring" value="christoph"/>
         <entry key="authored-when" type="xstring" value="2025-04-07 10:39:37 +0200"/>
         <entry key="lastEdited-by" type="xstring" value="SUPERSONIC"/>
-        <entry key="lastEdited-when" type="xstring" value="2025-04-17 23:07:50 +0300"/>
+        <entry key="lastEdited-when" type="xstring" value="2025-04-20 17:58:58 +0300"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="IDLE"/>
@@ -238,49 +238,17 @@
                 </config>
             </config>
         </config>
-        <config key="node_37">
-            <entry key="id" type="xint" value="37"/>
-            <entry key="node_settings_file" type="xstring" value="Python Script (#37)/settings.xml"/>
+        <config key="node_36">
+            <entry key="id" type="xint" value="36"/>
+            <entry key="node_settings_file" type="xstring" value="Python Script (#36)/settings.xml"/>
             <entry key="node_is_meta" type="xboolean" value="false"/>
             <entry key="node_type" type="xstring" value="NativeNode"/>
             <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
             <config key="ui_settings">
                 <config key="extrainfo.node.bounds">
                     <entry key="array-size" type="xint" value="4"/>
-                    <entry key="0" type="xint" value="2342"/>
-                    <entry key="1" type="xint" value="56"/>
-                    <entry key="2" type="xint" value="83"/>
-                    <entry key="3" type="xint" value="78"/>
-                </config>
-            </config>
-        </config>
-        <config key="node_38">
-            <entry key="id" type="xint" value="38"/>
-            <entry key="node_settings_file" type="xstring" value="Python Script (#38)/settings.xml"/>
-            <entry key="node_is_meta" type="xboolean" value="false"/>
-            <entry key="node_type" type="xstring" value="NativeNode"/>
-            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
-            <config key="ui_settings">
-                <config key="extrainfo.node.bounds">
-                    <entry key="array-size" type="xint" value="4"/>
-                    <entry key="0" type="xint" value="2414"/>
-                    <entry key="1" type="xint" value="310"/>
-                    <entry key="2" type="xint" value="83"/>
-                    <entry key="3" type="xint" value="78"/>
-                </config>
-            </config>
-        </config>
-        <config key="node_39">
-            <entry key="id" type="xint" value="39"/>
-            <entry key="node_settings_file" type="xstring" value="Python Script (#39)/settings.xml"/>
-            <entry key="node_is_meta" type="xboolean" value="false"/>
-            <entry key="node_type" type="xstring" value="NativeNode"/>
-            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
-            <config key="ui_settings">
-                <config key="extrainfo.node.bounds">
-                    <entry key="array-size" type="xint" value="4"/>
-                    <entry key="0" type="xint" value="168"/>
-                    <entry key="1" type="xint" value="218"/>
+                    <entry key="0" type="xint" value="180"/>
+                    <entry key="1" type="xint" value="129"/>
                     <entry key="2" type="xint" value="83"/>
                     <entry key="3" type="xint" value="78"/>
                 </config>
@@ -390,7 +358,7 @@
         <entry key="workflow.editor.ShowGrid" type="xboolean" value="false"/>
         <entry key="workflow.editor.gridX" type="xint" value="20"/>
         <entry key="workflow.editor.gridY" type="xint" value="20"/>
-        <entry key="workflow.editor.zoomLevel" type="xdouble" value="0.9"/>
+        <entry key="workflow.editor.zoomLevel" type="xdouble" value="1.0"/>
         <entry key="workflow.editor.curvedConnections" type="xboolean" value="true"/>
         <entry key="workflow.editor.connectionWidth" type="xint" value="2"/>
     </config>

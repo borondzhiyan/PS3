@@ -747,3 +747,139 @@ Caused by: Traceback (most recent call last):
   File "<string>", line 15, in <module>
 NameError: name 'model_pack' is not defined
 
+2025-04-20 17:00:37,088 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-04-20 17:00:37,088 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-04-20 17:00:37,088 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Requested registry access is not allowed.
+2025-04-20 17:00:37,088 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2025-04-20 17:00:37,088 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-04-20 17:00:37,088 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-04-20 17:00:37,088 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-04-20 17:00:37,088 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-04-20 17:00:37,088 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-04-20 17:00:37,088 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-04-20 17:00:55,971 : WARN  : ModalContext :  : Node : CSV Writer : 3:32 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "loans_preprocessed.csv"
+2025-04-20 17:00:55,976 : WARN  : ModalContext :  : Node : CSV Writer : 3:32 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "loans_preprocessed.csv"
+2025-04-20 17:00:55,987 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  : Warnings during load: Status: Warning: 03-classification-preprocessing_deployment 3 loaded with warnings
+2025-04-20 17:00:55,988 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: Warning: 03-classification-preprocessing_deployment 3
+2025-04-20 17:00:55,988 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: Python Script 3:39
+2025-04-20 17:00:55,988 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: State has changed from CONFIGURED to IDLE
+2025-04-20 17:02:22,785 : ERROR : main :  : CEFNodeView :  :  : %cerror%c Console not yet initialized 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.core.ui.dialog/uiext-dialog/3_37/assets/index-DKy4BLtd.js; line: 857)
+2025-04-20 17:03:00,081 : ERROR : main :  : CEFNodeView :  :  : %cerror%c Console not yet initialized 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.core.ui.dialog/uiext-dialog/3_26/assets/index-DKy4BLtd.js; line: 857)
+2025-04-20 17:52:40,364 : ERROR : main :  : CEFNodeView :  :  : %cerror%c Console not yet initialized 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.core.ui.dialog/uiext-dialog/3_37/assets/index-DKy4BLtd.js; line: 857)
+2025-04-20 17:54:51,852 : ERROR : KNIME-Worker-8 :  : PythonSourceCodePanel : Python Script : 3:36 : FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+org.knime.python2.kernel.PythonIOException: Executing the Python script failed: Traceback (most recent call last):
+  File "<string>", line 11, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:744)
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:721)
+	at org.knime.python3.scripting.Python3KernelBackend.executeAndCheckOutputs(Python3KernelBackend.java:646)
+	at org.knime.python2.kernel.PythonKernel.executeAndCheckOutputs(PythonKernel.java:486)
+	at org.knime.python2.kernel.PythonKernelManager.lambda$1(PythonKernelManager.java:208)
+	at org.knime.python2.kernel.PythonKernelManager$3.run(PythonKernelManager.java:225)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: Traceback (most recent call last):
+  File "<string>", line 11, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUPERSONIC\\Desktop\\Data Mining\\PS3\\data\\03-classification-preprocessing_deployment\\data\\classifier.pkl'
+
+2025-04-20 17:59:26,532 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-04-20 17:59:26,532 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-04-20 17:59:26,532 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Requested registry access is not allowed.
+2025-04-20 17:59:26,532 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2025-04-20 17:59:26,532 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-04-20 17:59:26,532 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-04-20 17:59:26,532 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-04-20 17:59:26,532 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-04-20 17:59:26,532 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-04-20 17:59:26,532 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-04-20 17:59:37,641 : WARN  : ModalContext :  : Node : CSV Writer : 3:32 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "loans_preprocessed.csv"
+2025-04-20 17:59:37,644 : WARN  : ModalContext :  : Node : CSV Writer : 3:32 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "loans_preprocessed.csv"
+2025-04-20 17:59:37,651 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  : Warnings during load: Status: Warning: 03-classification-preprocessing_deployment 3 loaded with warnings
+2025-04-20 17:59:37,651 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: Warning: 03-classification-preprocessing_deployment 3
+2025-04-20 17:59:37,651 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: Python Script 3:36
+2025-04-20 17:59:37,651 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: State has changed from CONFIGURED to IDLE
+2025-04-20 17:59:47,388 : ERROR : main :  : CEFNodeView :  :  : %cerror%c Console not yet initialized 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.core.ui.dialog/uiext-dialog/3_36/assets/index-DKy4BLtd.js; line: 857)
+2025-04-20 18:00:54,554 : ERROR : KNIME-Worker-6 :  : PythonSourceCodePanel : Python Script : 3:36 : KnimeUserError: Expected an object in output_objects[0], got None. Did you assign the output object?
+org.knime.python2.kernel.PythonIOException: KnimeUserError: Expected an object in output_objects[0], got None. Did you assign the output object?
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:742)
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:721)
+	at org.knime.python3.scripting.Python3KernelBackend.executeAndCheckOutputs(Python3KernelBackend.java:646)
+	at org.knime.python2.kernel.PythonKernel.executeAndCheckOutputs(PythonKernel.java:486)
+	at org.knime.python2.kernel.PythonKernelManager.lambda$1(PythonKernelManager.java:208)
+	at org.knime.python2.kernel.PythonKernelManager$3.run(PythonKernelManager.java:225)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2025-04-20 18:06:18,009 : WARN  : ModalContext :  : Node : JSON Row Combiner and Writer : 4:39 : Directory '/home/christoph/data' of output file does not exist
+2025-04-20 18:06:18,011 : WARN  : ModalContext :  : Node : JSON Row Combiner and Writer : 4:39 : Directory 'C:\home\christoph\data' of output file does not exist
+2025-04-20 18:06:18,011 : WARN  : ModalContext :  : Node : JSON Row Combiner and Writer : 4:13 : Directory '/home/christoph/data' of output file does not exist
+2025-04-20 18:06:18,012 : WARN  : ModalContext :  : Node : JSON Row Combiner and Writer : 4:13 : Directory 'C:\home\christoph\data' of output file does not exist
+2025-04-20 18:06:18,706 : WARN  : ModalContext :  : Node : JSON Row Combiner and Writer : 4:9 : Directory '/home/christoph/data' of output file does not exist
+2025-04-20 18:06:18,706 : WARN  : ModalContext :  : Node : JSON Row Combiner and Writer : 4:9 : Directory 'C:\home\christoph\data' of output file does not exist
+2025-04-20 18:06:18,709 : WARN  : ModalContext :  : Node : JSON Row Combiner and Writer : 4:32 : Directory '/home/christoph/data' of output file does not exist
+2025-04-20 18:06:18,710 : WARN  : ModalContext :  : Node : JSON Row Combiner and Writer : 4:32 : Directory 'C:\home\christoph\data' of output file does not exist
+2025-04-20 18:07:38,962 : WARN  : KNIME-Worker-10-Variable Creator 4:34 :  : Node : JSON Row Combiner and Writer : 4:39 : Directory 'C:\home\christoph\data' of output file does not exist
+2025-04-20 18:07:38,963 : WARN  : KNIME-Worker-10-Variable Creator 4:34 :  : Node : JSON Row Combiner and Writer : 4:9 : Directory 'C:\home\christoph\data' of output file does not exist
+2025-04-20 18:07:38,964 : WARN  : KNIME-Worker-10-Variable Creator 4:34 :  : Node : JSON Row Combiner and Writer : 4:13 : Directory 'C:\home\christoph\data' of output file does not exist
+2025-04-20 18:07:40,277 : WARN  : KNIME-Worker-9-Columns to JSON 4:10 :  : Node : JSON Row Combiner and Writer : 4:13 : Directory 'C:\home\christoph\data' of output file does not exist
+2025-04-20 18:08:33,707 : WARN  : ModalContext :  : Node : CSV Writer : 3:32 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "loans_preprocessed.csv"
+2025-04-20 18:08:33,709 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  : Warnings during load: Status: Warning: 03-classification-preprocessing_deployment (1).knwf 3 loaded with warnings
+2025-04-20 18:08:33,709 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: Warning: 03-classification-preprocessing_deployment (1).knwf 3
+2025-04-20 18:08:33,709 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: Data Cleaning 3:27
+2025-04-20 18:08:33,709 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: Some node states were invalid
+2025-04-20 18:08:33,709 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: State has changed from CONFIGURED to IDLE
+2025-04-20 18:08:33,709 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: Data Cleaning 3:28
+2025-04-20 18:08:33,709 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: Some node states were invalid
+2025-04-20 18:08:33,709 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: State has changed from CONFIGURED to IDLE
+2025-04-20 18:09:01,475 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-04-20 18:09:01,475 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-04-20 18:09:01,475 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Requested registry access is not allowed.
+2025-04-20 18:09:01,475 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2025-04-20 18:09:01,475 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-04-20 18:09:01,475 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-04-20 18:09:01,475 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-04-20 18:09:01,475 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-04-20 18:09:01,475 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-04-20 18:09:01,475 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-04-20 18:09:45,711 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-04-20 18:09:45,711 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-04-20 18:09:45,711 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Requested registry access is not allowed.
+2025-04-20 18:09:45,711 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2025-04-20 18:09:45,711 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-04-20 18:09:45,711 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-04-20 18:09:45,711 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-04-20 18:09:45,711 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-04-20 18:09:45,711 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-04-20 18:09:45,711 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
