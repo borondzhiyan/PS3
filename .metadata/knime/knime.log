@@ -883,3 +883,115 @@ org.knime.python2.kernel.PythonIOException: KnimeUserError: Expected an object i
 2025-04-20 18:09:45,711 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
 2025-04-20 18:09:45,711 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
 2025-04-20 18:09:45,711 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-04-20 18:11:20,412 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-04-20 18:11:20,412 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-04-20 18:11:20,412 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Requested registry access is not allowed.
+2025-04-20 18:11:20,412 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2025-04-20 18:11:20,412 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-04-20 18:11:20,412 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-04-20 18:11:20,412 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-04-20 18:11:20,412 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-04-20 18:11:20,412 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-04-20 18:11:20,412 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-04-20 18:11:59,097 : WARN  : ModalContext :  : Node : CSV Writer : 3:32 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "loans_preprocessed.csv"
+2025-04-20 18:11:59,102 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  : Warnings during load: Status: Warning: 03-classification-preprocessing_deployment (1).knwf 3 loaded with warnings
+2025-04-20 18:11:59,103 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: Warning: 03-classification-preprocessing_deployment (1).knwf 3
+2025-04-20 18:11:59,103 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: Data Cleaning 3:27
+2025-04-20 18:11:59,103 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: Some node states were invalid
+2025-04-20 18:11:59,103 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: State has changed from CONFIGURED to IDLE
+2025-04-20 18:11:59,103 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: Data Cleaning 3:28
+2025-04-20 18:11:59,103 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: Some node states were invalid
+2025-04-20 18:11:59,103 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: State has changed from CONFIGURED to IDLE
+2025-04-20 18:14:41,125 : WARN  : KNIME-Worker-8-CSV Reader 3:1 :  : Node : CSV Writer : 3:32 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "loans_preprocessed.csv"
+2025-04-20 18:14:44,443 : WARN  : KNIME-Worker-9-String to Number 3:27:16 :  : Node : CSV Writer : 3:32 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "loans_preprocessed.csv"
+2025-04-20 18:14:44,841 : WARN  : KNIME-Worker-6-Missing Value 3:27:17 :  : Node : CSV Writer : 3:32 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "loans_preprocessed.csv"
+2025-04-20 18:14:45,371 : WARN  : KNIME-Worker-7-Normalizer 3:23 :  : Node : CSV Writer : 3:32 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "loans_preprocessed.csv"
+2025-04-20 18:14:47,042 : WARN  : KNIME-Worker-8-PCA Compute 3:20 :  : Node : CSV Writer : 3:32 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "loans_preprocessed.csv"
+2025-04-20 18:14:49,570 : WARN  : KNIME-Worker-14-Python Script 3:26 :  : PythonScriptNodeModel : Python Script : 3:26 : Traceback (most recent call last):
+  File "<string>", line 15, in <module>
+  File "C:\Program Files\KNIME\bundling\envs\org_knime_pythonscripting_5.4.2\Lib\site-packages\sklearn\neighbors\_classification.py", line 274, in predict
+    neigh_ind = self.kneighbors(X, return_distance=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\KNIME\bundling\envs\org_knime_pythonscripting_5.4.2\Lib\site-packages\sklearn\neighbors\_base.py", line 838, in kneighbors
+    X = validate_data(
+        ^^^^^^^^^^^^^^
+  File "C:\Program Files\KNIME\bundling\envs\org_knime_pythonscripting_5.4.2\Lib\site-packages\sklearn\utils\validation.py", line 2919, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "C:\Program Files\KNIME\bundling\envs\org_knime_pythonscripting_5.4.2\Lib\site-packages\sklearn\utils\validation.py", line 2777, in _check_feature_names
+    raise ValueError(message)
+2025-04-20 18:14:49,776 : ERROR : KNIME-Worker-14-Python Script 3:26 :  : Node : Python Script : 3:26 : Execute failed: ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- PC1
+- PC2
+Feature names seen at fit time, yet now missing:
+- acc_now_delinq
+- annual_inc
+- delinq_2yrs
+- dti
+- emp_length
+- ...
+
+org.knime.core.node.KNIMEException: Execute failed: ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- PC1
+- PC2
+Feature names seen at fit time, yet now missing:
+- acc_now_delinq
+- annual_inc
+- delinq_2yrs
+- dti
+- emp_length
+- ...
+
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.checkExecutionAnswer(PythonScriptNodeModel.java:254)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.runUserScript(PythonScriptNodeModel.java:242)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.execute(PythonScriptNodeModel.java:187)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2025-04-20 18:44:12,072 : WARN  : ModalContext :  : Node : JSON Row Combiner and Writer : 4:39 : Directory '/home/christoph/data' of output file does not exist
+2025-04-20 18:44:12,074 : WARN  : ModalContext :  : Node : JSON Row Combiner and Writer : 4:39 : Directory 'C:\home\christoph\data' of output file does not exist
+2025-04-20 18:44:12,075 : WARN  : ModalContext :  : Node : JSON Row Combiner and Writer : 4:13 : Directory '/home/christoph/data' of output file does not exist
+2025-04-20 18:44:12,076 : WARN  : ModalContext :  : Node : JSON Row Combiner and Writer : 4:13 : Directory 'C:\home\christoph\data' of output file does not exist
+2025-04-20 18:44:12,196 : WARN  : ModalContext :  : Node : JSON Row Combiner and Writer : 4:9 : Directory '/home/christoph/data' of output file does not exist
+2025-04-20 18:44:12,197 : WARN  : ModalContext :  : Node : JSON Row Combiner and Writer : 4:9 : Directory 'C:\home\christoph\data' of output file does not exist
+2025-04-20 18:44:12,204 : WARN  : ModalContext :  : Node : JSON Row Combiner and Writer : 4:32 : Directory '/home/christoph/data' of output file does not exist
+2025-04-20 18:44:12,205 : WARN  : ModalContext :  : Node : JSON Row Combiner and Writer : 4:32 : Directory 'C:\home\christoph\data' of output file does not exist
+2025-04-21 23:44:53,951 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-04-21 23:44:53,951 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-04-21 23:44:53,951 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Requested registry access is not allowed.
+2025-04-21 23:44:53,951 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2025-04-21 23:44:53,951 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-04-21 23:44:53,951 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-04-21 23:44:53,951 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-04-21 23:44:53,951 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-04-21 23:44:53,951 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-04-21 23:44:53,951 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-04-21 23:45:13,698 : WARN  : ModalContext :  : Node : CSV Writer : 3:32 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "loans_preprocessed.csv"
+2025-04-21 23:45:13,702 : WARN  : ModalContext :  : Node : CSV Writer : 3:32 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "loans_preprocessed.csv"
+2025-04-21 23:45:13,703 : WARN  : ModalContext :  : Node : Python Script : 3:26 : Execute failed: ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- PC1
+- PC2
+Feature names seen at fit time, yet now missing:
+- acc_now_delinq
+- annual_inc
+- delinq_2yrs
+- dti
+- emp_length
+- ...
+
+2025-04-21 23:58:29,142 : WARN  : KNIME-Worker-6-CSV Reader 3:36 :  : Node : Row Filter : 3:37 : Unknown column "class".
+2025-04-22 18:40:03,309 : WARN  : main :  : Node : Row Filter : 3:37 : Unknown column "class".
+2025-04-22 18:40:05,885 : WARN  : main :  : Node : Row Filter : 3:37 : Unknown column "class".
+2025-04-22 18:41:19,139 : WARN  : KNIME-Worker-26-CSV Reader 3:36 :  : Node : Row Filter : 3:37 : Unknown column "class".

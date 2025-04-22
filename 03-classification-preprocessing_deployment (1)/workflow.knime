@@ -8,10 +8,15 @@
         <entry key="authored-by" type="xstring" value="christoph"/>
         <entry key="authored-when" type="xstring" value="2025-04-07 10:39:37 +0200"/>
         <entry key="lastEdited-by" type="xstring" value="SUPERSONIC"/>
-        <entry key="lastEdited-when" type="xstring" value="2025-04-20 18:12:08 +0300"/>
+        <entry key="lastEdited-when" type="xstring" value="2025-04-20 21:46:06 +0300"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="IDLE"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="ERROR"/>
+        <entry key="message" type="xstring" value="Contains one node with execution failure (Python Script #26)"/>
+        <entry key="issue" type="xstring" value="Python Script #26: ValueError: The feature names should match those that were passed during fit.%%00010Feature names unseen at fit time:%%00010- PC1%%00010- PC2%%00010Feature names seen at fit time, yet now missing:%%00010- acc_now_delinq%%00010- annual_inc%%00010- delinq_2yrs%%00010- dti%%00010- emp_length%%00010- ...%%00010"/>
+    </config>
     <config key="workflow_credentials"/>
     <config key="nodes">
         <config key="node_1">
