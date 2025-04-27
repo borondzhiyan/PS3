@@ -995,3 +995,140 @@ Feature names seen at fit time, yet now missing:
 2025-04-22 18:40:03,309 : WARN  : main :  : Node : Row Filter : 3:37 : Unknown column "class".
 2025-04-22 18:40:05,885 : WARN  : main :  : Node : Row Filter : 3:37 : Unknown column "class".
 2025-04-22 18:41:19,139 : WARN  : KNIME-Worker-26-CSV Reader 3:36 :  : Node : Row Filter : 3:37 : Unknown column "class".
+2025-04-22 19:06:40,036 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-04-22 19:06:40,036 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-04-22 19:06:40,036 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Requested registry access is not allowed.
+2025-04-22 19:06:40,036 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2025-04-22 19:06:40,036 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-04-22 19:06:40,036 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-04-22 19:06:40,036 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-04-22 19:06:40,036 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-04-22 19:06:40,036 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-04-22 19:06:40,036 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-04-22 19:06:58,832 : WARN  : ModalContext :  : Node : CSV Writer : 3:32 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "loans_preprocessed.csv"
+2025-04-22 19:06:58,836 : WARN  : ModalContext :  : Node : CSV Writer : 3:32 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "loans_preprocessed.csv"
+2025-04-22 19:06:58,836 : WARN  : ModalContext :  : Node : Python Script : 3:26 : Execute failed: ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- PC1
+- PC2
+Feature names seen at fit time, yet now missing:
+- acc_now_delinq
+- annual_inc
+- delinq_2yrs
+- dti
+- emp_length
+- ...
+
+2025-04-22 19:12:08,177 : ERROR : main :  : CEFNodeView :  :  : ResizeObserver loop completed with undelivered notifications. (source: http://org.knime.core.ui.dialog/uiext-dialog/3_26/index.html; line: 0)
+2025-04-22 19:22:17,713 : ERROR : main :  : CEFNodeView :  :  : %cerror%c Console not yet initialized 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.core.ui.dialog/uiext-dialog/3_26/assets/index-DKy4BLtd.js; line: 857)
+2025-04-22 19:22:27,129 : WARN  : KNIME-Worker-7-Python Script 3:26 :  : PythonScriptNodeModel : Python Script : 3:26 : Traceback (most recent call last):
+  File "<string>", line 15, in <module>
+  File "C:\Program Files\KNIME\bundling\envs\org_knime_pythonscripting_5.4.2\Lib\site-packages\sklearn\neighbors\_classification.py", line 274, in predict
+    neigh_ind = self.kneighbors(X, return_distance=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\KNIME\bundling\envs\org_knime_pythonscripting_5.4.2\Lib\site-packages\sklearn\neighbors\_base.py", line 838, in kneighbors
+    X = validate_data(
+        ^^^^^^^^^^^^^^
+  File "C:\Program Files\KNIME\bundling\envs\org_knime_pythonscripting_5.4.2\Lib\site-packages\sklearn\utils\validation.py", line 2919, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "C:\Program Files\KNIME\bundling\envs\org_knime_pythonscripting_5.4.2\Lib\site-packages\sklearn\utils\validation.py", line 2777, in _check_feature_names
+    raise ValueError(message)
+2025-04-22 19:22:27,266 : ERROR : KNIME-Worker-7-Python Script 3:26 :  : Node : Python Script : 3:26 : Execute failed: ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- PC1
+- PC2
+Feature names seen at fit time, yet now missing:
+- acc_now_delinq
+- annual_inc
+- delinq_2yrs
+- dti
+- emp_length
+- ...
+
+org.knime.core.node.KNIMEException: Execute failed: ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- PC1
+- PC2
+Feature names seen at fit time, yet now missing:
+- acc_now_delinq
+- annual_inc
+- delinq_2yrs
+- dti
+- emp_length
+- ...
+
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.checkExecutionAnswer(PythonScriptNodeModel.java:254)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.runUserScript(PythonScriptNodeModel.java:242)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.execute(PythonScriptNodeModel.java:187)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2025-04-22 21:20:15,830 : ERROR : main :  : CEFNodeView :  :  : Uncaught (in promise) Error: Request timedout: {"method":"callNodeDataService","params":[{"serviceType":"data","dataServiceRequest":"{\"jsonrpc\":\"2.0\",\"method\":\"ScriptingService.getEvent\",\"params\":[],\"id\":405}","extensionType":"dialog","nodeId":"root:26","projectId":"03-classification-preprocessing_deployment (1) 3","workflowId":"root"}]} (source: http://org.knime.core.ui.dialog/uiext-dialog/3_26/assets/index-DKy4BLtd.js; line: 741)
+2025-04-22 21:57:23,866 : WARN  : KNIME-Worker-12-Python Script 3:26 :  : PythonScriptNodeModel : Python Script : 3:26 : Traceback (most recent call last):
+  File "<string>", line 15, in <module>
+  File "C:\Program Files\KNIME\bundling\envs\org_knime_pythonscripting_5.4.2\Lib\site-packages\sklearn\neighbors\_classification.py", line 274, in predict
+    neigh_ind = self.kneighbors(X, return_distance=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\KNIME\bundling\envs\org_knime_pythonscripting_5.4.2\Lib\site-packages\sklearn\neighbors\_base.py", line 838, in kneighbors
+    X = validate_data(
+        ^^^^^^^^^^^^^^
+  File "C:\Program Files\KNIME\bundling\envs\org_knime_pythonscripting_5.4.2\Lib\site-packages\sklearn\utils\validation.py", line 2919, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "C:\Program Files\KNIME\bundling\envs\org_knime_pythonscripting_5.4.2\Lib\site-packages\sklearn\utils\validation.py", line 2777, in _check_feature_names
+    raise ValueError(message)
+2025-04-22 21:57:24,003 : ERROR : KNIME-Worker-12-Python Script 3:26 :  : Node : Python Script : 3:26 : Execute failed: ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- PC1
+- PC2
+Feature names seen at fit time, yet now missing:
+- acc_now_delinq
+- annual_inc
+- delinq_2yrs
+- dti
+- emp_length
+- ...
+
+org.knime.core.node.KNIMEException: Execute failed: ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- PC1
+- PC2
+Feature names seen at fit time, yet now missing:
+- acc_now_delinq
+- annual_inc
+- delinq_2yrs
+- dti
+- emp_length
+- ...
+
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.checkExecutionAnswer(PythonScriptNodeModel.java:254)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.runUserScript(PythonScriptNodeModel.java:242)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.execute(PythonScriptNodeModel.java:187)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
